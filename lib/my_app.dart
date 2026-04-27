@@ -1,4 +1,5 @@
 import 'package:astra_cast/app_theme.dart';
+import 'package:astra_cast/data/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.appTheme,
-      
+      home: const LoginPage(),
     );
   }
 }
